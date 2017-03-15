@@ -3,7 +3,7 @@ import scrapy
 from AospRepoSpider.items import AosprepospiderItem
 
 domain = 'https://android.googlesource.com'
-baseUrl = domain + '/tools/repo/+refs'
+baseUrl = domain + '/platform/manifest/+refs'
 
 class RepoSpider(scrapy.Spider):
     name = "repo"
